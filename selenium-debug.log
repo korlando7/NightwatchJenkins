@@ -1,0 +1,23 @@
+11:32:58.978 INFO - Launching a standalone Selenium Server
+11:32:59.004 INFO - Java: Oracle Corporation 25.111-b14
+11:32:59.004 INFO - OS: Mac OS X 10.12.2 x86_64
+11:32:59.012 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+11:32:59.064 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+11:32:59.064 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+11:32:59.064 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+11:32:59.064 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+11:32:59.065 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+11:32:59.065 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+11:32:59.108 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+11:32:59.108 INFO - Selenium Server is up and running
+11:32:59.310 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Test1, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+11:32:59.318 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Test1, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9) on port 32435
+Only local connections are allowed.
+11:33:00.128 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Test1, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+11:33:00.140 INFO - Executing: [get: https://www.redventures.com/])
+11:33:01.989 INFO - Done: [get: https://www.redventures.com/]
+11:33:04.010 INFO - Executing: [delete session: 0efeda03-3a86-47c5-8fcc-52b6b044fe99])
+11:33:04.084 INFO - Done: [delete session: 0efeda03-3a86-47c5-8fcc-52b6b044fe99]
