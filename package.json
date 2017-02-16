@@ -26,5 +26,5 @@
     "mime-types": "^2.1.13",
     "nodemon": "^1.11.0",
     "selenium-download": "latest"
-  },
+  }
 }
