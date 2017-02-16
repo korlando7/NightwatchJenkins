@@ -14,7 +14,8 @@
     "type": "git",
     "url": "git+https://github.com/korlando7/NightwatchJenkins"
   },
-  "author": "",
+  "author": "Kevin Orlando",
+  "license": "none",
   "dependencies": {
     "nightwatch": "^0.9.9",
     "saucelabs": "^1.3.0",
