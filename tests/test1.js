@@ -5,6 +5,6 @@ module.exports = {
     var redV = browser.page.test1();
 
     redV.navigate();
-    browser.pause(2000).end();
+    browser.pause(4000).end();
   }
 }
