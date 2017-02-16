@@ -4,7 +4,7 @@
   "description": "getting nightwatch integrated with jenkins",
   "main": "index.js",
   "engines": {
-    "node": "7.4.0"
+    "node": "4.4.6"
   },
   "scripts": {
     "postinstall": "node nightwatch.conf.js",
