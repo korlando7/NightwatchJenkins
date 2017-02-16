@@ -13,5 +13,5 @@ module.exports = {
   elements: {
     landingVideo: "div.cover_all"
   },
-  commands:
+  commands: [commands]
 }
