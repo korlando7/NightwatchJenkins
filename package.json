@@ -1,10 +1,10 @@
 {
-  "name": "learn-nightwatch",
+  "name": "nightwatch test",
   "version": "1.0.0",
-  "description": "Learn how to use nightwatch for front-end testing. step-by-step tutorial",
+  "description": "getting nightwatch integrated with jenkins",
   "main": "index.js",
   "engines": {
-    "node": "4.4.6"
+    "node": "7.4.0"
   },
   "scripts": {
     "postinstall": "node nightwatch.conf.js",
