@@ -5,8 +5,8 @@ module.exports = {
     var redV = browser.page.test1();
 
     redV.navigate();
+    redV.rvTest();
     browser
-      .waitForElementVisible('@landingVideo')
       .end();
   }
 }
