@@ -3,5 +3,7 @@
 module.exports = {
 
   url: "https://www.redventures.com/",
-  elements: {}
+  elements: {
+    landingVideo: "div.cover_all"
+  }
 }
