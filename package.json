@@ -1,7 +1,7 @@
 {
-  "name": "nightwatch test",
+  "name": "NightwatchJenkins",
   "version": "1.0.0",
-  "description": "getting nightwatch integrated with jenkins",
+  "description": "Nightwatch test and integration with Jenkins",
   "main": "index.js",
   "engines": {
     "node": "4.4.6"
