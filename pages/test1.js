@@ -17,7 +17,7 @@ module.exports = {
   url: 'https://www.redventures.com/',
   elements: {
     landingVideo: 'div.cover_all',
-    mainHeader: 'h1.hero_heading',
+    mainHeader: 'h1.hero__heading',
     content2: 'h2.content-block__heading'
   },
   commands: [commands]
