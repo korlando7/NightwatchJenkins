@@ -3,15 +3,17 @@
 var commands = {
   rvTest: function () {
     return this
-      .waitForElementVisible('@landingVideo');
+      .waitForElementVisible('@landingVideo')
+      .verify.containsText('@mainHeader', 'We are Red Ventures.')
   }
 }
 
 module.exports = {
 
-  url: "https://www.redventures.com/",
+  url: 'https://www.redventures.com/',
   elements: {
-    landingVideo: "div.cover_all"
+    landingVideo: 'div.cover_all',
+    mainHeader: 'h1.hero_heading'
   },
   commands: [commands]
 }
