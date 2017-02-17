@@ -8,6 +8,7 @@ var commands = {
       .getText('@content2', function (res) {
         console.log(res.value);
       })
+      .api.pause(1000);
   }
 }
 
