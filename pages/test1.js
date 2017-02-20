@@ -4,7 +4,7 @@ var commands = {
   rvTest: function () {
     return this
       .waitForElementVisible('@landingVideo')
-      .verify.containsText('@mainHeader', 'We are Red Ventures.')
+      .verify.containsText('@mainHeade', 'We are Red Ventures.')
       .getText('@content2', function (res) {
         console.log(res.value);
       })
