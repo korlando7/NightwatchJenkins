@@ -11,10 +11,10 @@ module.exports = {
     "start_process": true, // tells nightwatch to start/stop the selenium process
     "server_path": "./bin/selenium.jar",
     "host": "127.0.0.1",
-    "port": 4444//,  // standard selenium port
-    // "cli_args": { // chromedriver is downloaded by selenium-download (see readme)
-    //   "webdriver.chrome.driver" : "./bin/chromedriver"
-    // }
+    "port": 4444,  // standard selenium port
+    "cli_args": { // chromedriver is downloaded by selenium-download (see readme)
+      "webdriver.chrome.driver" : "./bin/chromedriver"
+    }
   },
   "test_settings": {
     "default": {
@@ -25,12 +25,16 @@ module.exports = {
       "globals": {
         "waitForConditionTimeout": 5000 // sometimes internet is slow so wait.
       },
-      "desiredCapabilities": { // use Chrome as the default browser for tests
-        "browserName" : "phantomjs",
-        "javascriptEnabled" : true,
-        "acceptSslCerts" : true,
-        "phantomjs.binary.path" : "./bin/phantomjs",
-        "phantomjs.cli.args" : []
+      // "desiredCapabilities": { // use Chrome as the default browser for tests
+      //   "browserName" : "phantomjs",
+      //   "javascriptEnabled" : true,
+      //   "acceptSslCerts" : true,
+      //   "phantomjs.binary.path" : "./bin/phantomjs",
+      //   "phantomjs.cli.args" : []
+      // }
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "javascriptEnabled": true
       }
     },
     "chrome": {
