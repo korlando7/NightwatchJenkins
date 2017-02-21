@@ -23,7 +23,7 @@ module.exports = {
         "path": './screenshots' // save screenshots here
       },
       "globals": {
-        "waitForConditionTimeout": 4000 // sometimes internet is slow so wait.
+        "waitForConditionTimeout": 5000 // sometimes internet is slow so wait.
       },
       "desiredCapabilities": { // use Chrome as the default browser for tests
         "browserName" : "phantomjs",
