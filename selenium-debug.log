@@ -1,35 +1,43 @@
-10:07:43.076 INFO - Launching a standalone Selenium Server
-10:07:43.101 INFO - Java: Oracle Corporation 25.111-b14
-10:07:43.102 INFO - OS: Mac OS X 10.12.2 x86_64
-10:07:43.109 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
-10:07:43.158 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+10:18:41.765 INFO - Launching a standalone Selenium Server
+10:18:41.792 INFO - Java: Oracle Corporation 25.111-b14
+10:18:41.792 INFO - OS: Mac OS X 10.12.2 x86_64
+10:18:41.800 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+10:18:41.850 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
 registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
-10:07:43.159 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+10:18:41.851 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
 registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
-10:07:43.159 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-10:07:43.159 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-10:07:43.160 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-10:07:43.160 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-10:07:43.203 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-10:07:43.203 INFO - Selenium Server is up and running
-10:07:43.395 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Test1, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-10:07:43.402 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Test1, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9) on port 39459
-Only local connections are allowed.
-10:07:44.267 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Test1, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-10:07:44.279 INFO - Executing: [get: https://www.redventures.com/])
-10:07:47.390 INFO - Done: [get: https://www.redventures.com/]
-10:07:47.399 INFO - Executing: [find elements: By.cssSelector: div.cover_all])
-10:07:47.432 INFO - Done: [find elements: By.cssSelector: div.cover_all]
-10:07:47.436 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (1dccc395d237e25550159a2124f0619b)] -> css selector: div.cover_all]])
-10:07:47.459 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (1dccc395d237e25550159a2124f0619b)] -> css selector: div.cover_all]]
-10:07:47.466 INFO - Executing: [find element: By.cssSelector: h1.hero__heading])
-10:07:47.485 INFO - Done: [find element: By.cssSelector: h1.hero__heading]
-10:07:47.488 INFO - Executing: [get text: 1 [[ChromeDriver: chrome on MAC (1dccc395d237e25550159a2124f0619b)] -> css selector: h1.hero__heading]])
-10:07:47.516 INFO - Done: [get text: 1 [[ChromeDriver: chrome on MAC (1dccc395d237e25550159a2124f0619b)] -> css selector: h1.hero__heading]]
-10:07:47.520 INFO - Executing: [find element: By.cssSelector: h2.content-block__heading])
-10:07:47.540 INFO - Done: [find element: By.cssSelector: h2.content-block__heading]
-10:07:47.543 INFO - Executing: [get text: 2 [[ChromeDriver: chrome on MAC (1dccc395d237e25550159a2124f0619b)] -> css selector: h2.content-block__heading]])
-10:07:47.570 INFO - Done: [get text: 2 [[ChromeDriver: chrome on MAC (1dccc395d237e25550159a2124f0619b)] -> css selector: h2.content-block__heading]]
-10:07:49.588 INFO - Executing: [delete session: 89acb029-c77c-4169-907e-7b2e045d97af])
-10:07:49.665 INFO - Done: [delete session: 89acb029-c77c-4169-907e-7b2e045d97af]
+10:18:41.851 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+10:18:41.851 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+10:18:41.852 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+10:18:41.852 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+10:18:41.895 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+10:18:41.896 INFO - Selenium Server is up and running
+10:18:42.454 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, phantomjs.binary.path=./bin/phantomjs, name=Test1, browserName=phantomjs, javascriptEnabled=true, phantomjs.cli.args=[], platform=ANY}]])
+10:18:42.461 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, phantomjs.binary.path=./bin/phantomjs, name=Test1, browserName=phantomjs, javascriptEnabled=true, phantomjs.cli.args=[], platform=ANY}]
+10:18:42.467 INFO - executable: /Users/korlando/Documents/Testing/Demos/NightwatchJenkins/./bin/phantomjs
+10:18:42.467 INFO - port: 41841
+10:18:42.467 INFO - arguments: [--webdriver=41841, --webdriver-logfile=/Users/korlando/Documents/Testing/Demos/NightwatchJenkins/phantomjsdriver.log]
+10:18:42.467 INFO - environment: {}
+[INFO  - 2017-02-22T15:18:43.508Z] GhostDriver - Main - running on port 41841
+[INFO  - 2017-02-22T15:18:43.850Z] Session [32cde260-f912-11e6-9155-adf7cc8c474c] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-02-22T15:18:43.850Z] Session [32cde260-f912-11e6-9155-adf7cc8c474c] - page.customHeaders:  - {}
+[INFO  - 2017-02-22T15:18:43.850Z] Session [32cde260-f912-11e6-9155-adf7cc8c474c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-02-22T15:18:43.851Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 32cde260-f912-11e6-9155-adf7cc8c474c
+10:18:43.875 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, phantomjs.binary.path=./bin/phantomjs, name=Test1, browserName=phantomjs, javascriptEnabled=true, phantomjs.cli.args=[], platform=ANY}]]
+10:18:43.886 INFO - Executing: [get: https://www.redventures.com/])
+10:18:46.824 INFO - Done: [get: https://www.redventures.com/]
+10:18:46.841 INFO - Executing: [find elements: By.cssSelector: div.cover_all])
+10:18:46.866 INFO - Done: [find elements: By.cssSelector: div.cover_all]
+10:18:46.871 INFO - Executing: [is displayed: 0 [[PhantomJSDriver: phantomjs on MAC (32cde260-f912-11e6-9155-adf7cc8c474c)] -> css selector: div.cover_all]])
+10:18:46.887 INFO - Done: [is displayed: 0 [[PhantomJSDriver: phantomjs on MAC (32cde260-f912-11e6-9155-adf7cc8c474c)] -> css selector: div.cover_all]]
+10:18:46.893 INFO - Executing: [find element: By.cssSelector: h1.hero__heading])
+10:18:46.905 INFO - Done: [find element: By.cssSelector: h1.hero__heading]
+10:18:46.909 INFO - Executing: [get text: 1 [[PhantomJSDriver: phantomjs on MAC (32cde260-f912-11e6-9155-adf7cc8c474c)] -> css selector: h1.hero__heading]])
+10:18:46.922 INFO - Done: [get text: 1 [[PhantomJSDriver: phantomjs on MAC (32cde260-f912-11e6-9155-adf7cc8c474c)] -> css selector: h1.hero__heading]]
+10:18:46.926 INFO - Executing: [find element: By.cssSelector: h2.content-block__heading])
+10:18:46.938 INFO - Done: [find element: By.cssSelector: h2.content-block__heading]
+10:18:46.940 INFO - Executing: [get text: 2 [[PhantomJSDriver: phantomjs on MAC (32cde260-f912-11e6-9155-adf7cc8c474c)] -> css selector: h2.content-block__heading]])
+10:18:46.954 INFO - Done: [get text: 2 [[PhantomJSDriver: phantomjs on MAC (32cde260-f912-11e6-9155-adf7cc8c474c)] -> css selector: h2.content-block__heading]]
+10:18:52.963 INFO - Executing: [delete session: 823bcafc-3b69-4d33-98ce-08f329c83bd8])
+[INFO  - 2017-02-22T15:18:52.979Z] ShutdownReqHand - _handle - About to shutdown
+10:18:53.025 INFO - Done: [delete session: 823bcafc-3b69-4d33-98ce-08f329c83bd8]
