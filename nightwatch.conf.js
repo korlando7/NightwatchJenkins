@@ -8,10 +8,10 @@ module.exports = {
   "output_folder": "./reports", // reports (test outcome) output by nightwatch
   "page_objects_path" : "./pages",
   "selenium": { // downloaded by selenium-download module (see readme)
-    "start_process": false, // tells nightwatch to start/stop the selenium process
+    "start_process": true, // tells nightwatch to start/stop the selenium process
     "server_path": "./bin/selenium.jar",
     "host": "http://ec2-54-174-251-152.compute-1.amazonaws.com",
-    "port": 4444,  // standard selenium port
+    "port": 4446,  // standard selenium port
     "cli_args": { // chromedriver is downloaded by selenium-download (see readme)
       "webdriver.chrome.driver" : "./bin/chromedriver"
     }
