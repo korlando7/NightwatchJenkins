@@ -10,7 +10,7 @@ module.exports = {
   "selenium": { // downloaded by selenium-download module (see readme)
     "start_process": true, // tells nightwatch to start/stop the selenium process
     "server_path": "./bin/selenium.jar",
-    "host": "http://ec2-54-174-251-152.compute-1.amazonaws.com",
+    "host": "127.0.0.1",
     "port": 4444,  // standard selenium port
     "cli_args": { // chromedriver is downloaded by selenium-download (see readme)
       "webdriver.chrome.driver" : "./bin/chromedriver"
