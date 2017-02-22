@@ -25,24 +25,24 @@ module.exports = {
       "globals": {
         "waitForConditionTimeout": 5000 // sometimes internet is slow so wait.
       },
-      "desiredCapabilities": { // use Chrome as the default browser for tests
-        "browserName" : "phantomjs",
-        "javascriptEnabled" : true,
-        "acceptSslCerts" : true,
-        "phantomjs.binary.path" : "./bin/phantomjs",
-        "phantomjs.cli.args" : []
-      }
-      // "desiredCapabilities": {
-      //   "browserName": "chrome",
-      //   "javascriptEnabled": true
+      // "desiredCapabilities": { // use Chrome as the default browser for tests
+      //   "browserName" : "phantomjs",
+      //   "javascriptEnabled" : true,
+      //   "acceptSslCerts" : true,
+      //   "phantomjs.binary.path" : "./bin/phantomjs",
+      //   "phantomjs.cli.args" : []
       // }
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "javascriptEnabled": true
+      }
     },
-    // "chrome": {
-    //   "desiredCapabilities": {
-    //     "browserName": "chrome",
-    //     "javascriptEnabled": true // turn off to test progressive enhancement
-    //   }
-    // }
+    "chrome": {
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "javascriptEnabled": true // turn off to test progressive enhancement
+      }
+    }
   }
 }
 
